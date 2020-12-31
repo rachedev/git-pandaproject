@@ -1,5 +1,5 @@
 body {
-    font-family: 'Handlee', cursive;
+    font-family: 'Indie Flower', cursive;
 }
 
 h1, h2, h3 {
@@ -22,8 +22,8 @@ footer {
 .jumbotron {
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, #ea4c46, #ff2626, #ff0000);
-    color: white;
+    background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
+    color: #d4af37;
 }
 
 .row-content {
