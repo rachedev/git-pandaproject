@@ -1,5 +1,6 @@
 body {
     font-family: 'Indie Flower', cursive;
+    color: #D4AF37
 }
 
 h1, h2, h3 {
@@ -7,16 +8,17 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #3046C5;
+    color: #D4AF37;
 }
 
 header h2 {
-    color: #CEC8FF;
+    color: #D4AF37;
 }
 
 footer {
     background-image: linear-gradient(#ff2626, white);
     padding: 20px 0;
+    color: #d4af37;
 }
 
 .jumbotron {
@@ -34,4 +36,25 @@ footer {
 
 .navbar {
     background-image: linear-gradient(to right, #ea4c46, #ff2626, #ff0000);
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #d4af37;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
