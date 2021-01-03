@@ -16,7 +16,7 @@ header h2 {
 }
 
 footer {
-    background-image: linear-gradient(#ff2626, white);
+    background-image: linear-gradient(#ff2626, #ea4c46);
     padding: 20px 0;
     color: #d4af37;
 }
@@ -56,4 +56,25 @@ footer {
     right: 0;
     bottom: 0;
     z-index: 100;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+#categories {
+    height: 120px
+}
+  
+#categories img {
+    width: 100px;
+    height: 100px;
+  }
+
+.fa-sign-in {
+    font-size: 1.5rem;
+}
+
+nav {
+    width: 100%;
 }
