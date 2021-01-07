@@ -1,6 +1,6 @@
 body {
     font-family: 'Indie Flower', cursive;
-    color: #D4AF37
+    color: #ffe66e
 }
 
 h1, h2, h3 {
@@ -8,24 +8,24 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #D4AF37;
+    color: #ffe66e;
 }
 
 header h2 {
-    color: #D4AF37;
+    color: #ffe66e;
 }
 
 footer {
-    background-image: linear-gradient(#ff2626, #ea4c46);
+    background-image: linear-gradient(#cf1017, #cf1017);
     padding: 20px 0;
-    color: #d4af37;
+    color: #ffeb94;
 }
 
 .jumbotron {
     margin: 0;
     padding: 30px;
     background-image: linear-gradient(to right, #ffffff, #ffffff, #ffffff);
-    color: #d4af37;
+    color: #ffe66e;
 }
 
 .row-content {
@@ -36,7 +36,7 @@ footer {
 }
 
 .navbar {
-    background-image: linear-gradient(to right, #ea4c46, #ff2626, #ff0000);
+    background-color: #cf1017;
 }
 
 .tab-content {
@@ -112,11 +112,21 @@ li {
 
 .zoom {
     transition: transform .2s; /* Animation */
-    width: 70px;
-    height: 70px;
+    width: 350px;
+    height: 325px;
     margin: 0 auto;
 }
   
 .zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.15); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#carouselrow1 {
+    background-image: url("img/logo.jpg");
+
+}
+
+#cardrows {
+    background-image: linear-gradient(to right, gold, gold, gold);
+
 }
