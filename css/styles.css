@@ -58,6 +58,7 @@ footer {
     right: 0;
     bottom: 0;
     z-index: 100;
+    color: black;
 }
 
 .nav-link {
@@ -94,7 +95,6 @@ nav {
 #certifiedpig {
     width: 200px;
     height: auto;
-
 }
 
 #ffd {
@@ -123,10 +123,22 @@ li {
 
 #carouselrow1 {
     background-image: url("img/logo.jpg");
-
 }
 
 #cardrows {
     background-image: linear-gradient(to right, gold, gold, gold);
+}
 
+#cardrow {
+    margin-top: 150px;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.carousel-indicators .active{
+    background-color:yellow;
 }
